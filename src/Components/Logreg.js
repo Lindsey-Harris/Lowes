@@ -1,8 +1,17 @@
 //Login Page
-
+// import { useNavigate } from 'react-router-dom';
+// function HomePage() {
+//    let navigate = useNavigate()
+// const handleClick = () => {
+//       navigate('/aboutpage')
+//    }
+// return(
+//       <button onClick={handleClick}> Read More </button>
+//    );
+// }
 import React, { useState } from "react";
 import { Login } from "../Pages/Login";
-import Nav from "./Nav";
+import Nav from "../Components/Nav";
 import Footer from "./footer";
 import "../Login.css";
 import Registration from "../Pages/Registration";
