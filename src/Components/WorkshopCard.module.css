@@ -1,0 +1,72 @@
+.holder{
+display: grid;
+grid-template-columns:repeat(5, 1fr);
+align-items: center;
+justify-content: center;
+background-color: white;
+border-radius: 0.5rem;
+box-shadow: 1rem .2rem .5rem #486da3;
+margin-bottom: 4rem;
+}
+
+
+.home .card{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: red; 
+}
+
+.home .card-body{
+    background-color: #6a9be4;
+}
+
+.workshopInfo{
+    grid-column-start: 2;
+    grid-column-end: 6;
+    color: black;
+    margin: 1.5rem;
+    
+    
+}
+
+.itemWrapper {
+    display: flex;
+    justify-content: center; 
+     align-items: center;
+}
+.itemPicture{
+    height: 200px;
+    width:200px;
+} 
+.progressButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    
+}
+
+.bButtons{
+    margin: 0 .5rem;
+    background-color: transparent;
+    color: #3b71ca;
+    font-size: 2rem;
+}
+
+.bButtons:hover {
+    background: transparent;
+    color: #1a202c;
+  }
+
+
+@media screen and (min-width: 481px) and (max-width: 799px) {
+    .holder{
+    display:block
+    }
+}
+
+@media screen and (max-width: 480px){
+    .holder{
+    display:block
+    }
+}
